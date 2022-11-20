@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&display=swap');
+
+.aboutme-div {
+    background-image: url("https://www.scnsoft.com/application-development/web-dev-services/cover-pic-web-development-new.svg");
+    height: 36rem;
+    width: 50rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-width: 55%;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.aboutme-text {
+    margin-top: 5rem;
+}
+
+.about-me {
+    text-align: center;
+    letter-spacing: 0.125rem;
+    margin-bottom: 1.7rem;
+}
+
+.about-para {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+}
+
+.suggestion {
+    text-align: center;
+}
+
+.hire-button-div {
+    margin-top: 2rem;
+}
+
+.hire-button {
+    background-color: #7bd5f1;
+    border: none;
+    padding: 0.4rem 0.9rem;
+    position: relative;
+    left: 45%;
+    color: black;
+}
+
+.hire-button:hover {
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 3px 3px #02242e;
+}
+
+.disflex {
+    display: flex;
+}
+
+@media only screen and (max-width: 1200px) {
+    #about {
+        flex-direction: column;
+    }
+
+    .aboutme-div {
+        display: none;
+    }
+}
